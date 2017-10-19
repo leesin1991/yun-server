@@ -1,0 +1,1410 @@
+[ 2017-10-19T11:36:33+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.007000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.008000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452425' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T11:36:34+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=987a12fa93ca67e9f3c00db2cd83b9bd&state=d8d5ec95
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T11:36:46+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.000000s ]
+SQL: UPDATE `oauth_access_tokens` SET `user_id`=2 WHERE ( `access_token` = '32b62de19e9353488663cb79f10b85236c7e12f0' ) [ RunTime:0.046800s ]
+
+[ 2017-10-19T11:37:02+08:00 ] 127.0.0.1 /Api/goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T11:37:10+08:00 ] 127.0.0.1 /Api/goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T11:37:50+08:00 ] 127.0.0.1 /Api/goods/lists.html?access_token=32b62de19e9353488663cb79f10b85236c7e12f0
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T11:38:12+08:00 ] 127.0.0.1 /Api/goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.015600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T11:50:16+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.015600s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T11:50:16+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T11:57:30+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.015600s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015600s ]
+
+[ 2017-10-19T11:57:30+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T11:57:54+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T11:58:07+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T11:58:15+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T11:58:19+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T11:58:19+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T11:58:24+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T11:59:36+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T11:59:37+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T11:59:42+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.015600s ]
+SQL: UPDATE `oauth_access_tokens` SET `user_id`=3 WHERE ( `access_token` = '54d99db1bbcabb87e3fb366d12758e054dbd4518' ) [ RunTime:0.046800s ]
+
+[ 2017-10-19T12:36:25+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [4096] Argument 1 passed to OAuth2\Server::handleTokenRequest() must implement interface OAuth2\RequestInterface, array given, called in D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\OauthController.class.php on line 107 and defined D:\phpStudy\WWW\bbc3.0-local\vendor\bshaffer\oauth2-server-php\src\OAuth2\Server.php 第 298 行.
+NOTIC: [4096] Argument 1 passed to OAuth2\Controller\TokenController::handleTokenRequest() must implement interface OAuth2\RequestInterface, array given, called in D:\phpStudy\WWW\bbc3.0-local\vendor\bshaffer\oauth2-server-php\src\OAuth2\Server.php on line 301 and defined D:\phpStudy\WWW\bbc3.0-local\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php 第 66 行.
+NOTIC: [4096] Argument 1 passed to OAuth2\Controller\TokenController::grantAccessToken() must implement interface OAuth2\RequestInterface, array given, called in D:\phpStudy\WWW\bbc3.0-local\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php on line 68 and defined D:\phpStudy\WWW\bbc3.0-local\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php 第 98 行.
+
+[ 2017-10-19T12:37:33+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [4096] Argument 1 passed to OAuth2\Server::handleTokenRequest() must implement interface OAuth2\RequestInterface, array given, called in D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\OauthController.class.php on line 107 and defined D:\phpStudy\WWW\bbc3.0-local\vendor\bshaffer\oauth2-server-php\src\OAuth2\Server.php 第 298 行.
+NOTIC: [4096] Argument 1 passed to OAuth2\Controller\TokenController::handleTokenRequest() must implement interface OAuth2\RequestInterface, array given, called in D:\phpStudy\WWW\bbc3.0-local\vendor\bshaffer\oauth2-server-php\src\OAuth2\Server.php on line 301 and defined D:\phpStudy\WWW\bbc3.0-local\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php 第 66 行.
+NOTIC: [4096] Argument 1 passed to OAuth2\Controller\TokenController::grantAccessToken() must implement interface OAuth2\RequestInterface, array given, called in D:\phpStudy\WWW\bbc3.0-local\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php on line 68 and defined D:\phpStudy\WWW\bbc3.0-local\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php 第 98 行.
+
+[ 2017-10-19T12:38:40+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:39:04+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:39:11+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [4096] Argument 1 passed to OAuth2\Server::handleTokenRequest() must implement interface OAuth2\RequestInterface, array given, called in D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\OauthController.class.php on line 104 and defined D:\phpStudy\WWW\bbc3.0-local\vendor\bshaffer\oauth2-server-php\src\OAuth2\Server.php 第 298 行.
+NOTIC: [4096] Argument 1 passed to OAuth2\Controller\TokenController::handleTokenRequest() must implement interface OAuth2\RequestInterface, array given, called in D:\phpStudy\WWW\bbc3.0-local\vendor\bshaffer\oauth2-server-php\src\OAuth2\Server.php on line 301 and defined D:\phpStudy\WWW\bbc3.0-local\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php 第 66 行.
+NOTIC: [4096] Argument 1 passed to OAuth2\Controller\TokenController::grantAccessToken() must implement interface OAuth2\RequestInterface, array given, called in D:\phpStudy\WWW\bbc3.0-local\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php on line 68 and defined D:\phpStudy\WWW\bbc3.0-local\vendor\bshaffer\oauth2-server-php\src\OAuth2\Controller\TokenController.php 第 98 行.
+
+[ 2017-10-19T12:39:48+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.015600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:40:07+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:40:58+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:44:07+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:44:14+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-19T12:44:14+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.015600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:44:22+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:47:33+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:47:37+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T12:47:37+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.015600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:47:46+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:53:33+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T12:53:33+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:53:40+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:54:21+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:54:26+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.005000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-19T12:54:26+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:54:34+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:55:22+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:57:34+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:57:38+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.003001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003001s ]
+
+[ 2017-10-19T12:57:38+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:57:45+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:58:58+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-19T12:58:58+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T12:59:05+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:00:34+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:00:36+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-19T13:00:37+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:00:44+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:01:27+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T13:01:27+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.015600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:01:39+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:02:37+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:03:45+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T13:03:45+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:03:54+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:04:50+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.015600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T13:04:51+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:04:59+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:13:26+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.015600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:13:28+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T13:13:28+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:13:36+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:14:41+08:00 ] 127.0.0.1 /Api/oauth/refresh.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:14:50+08:00 ] 127.0.0.1 /Api/oauth/refresh.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:15:02+08:00 ] 127.0.0.1 /Api/oauth/refresh.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.005001s ]
+SQL: UPDATE `oauth_access_tokens` SET `user_id`=3 WHERE ( `access_token` = 'db53749b67fa6a90a2cebc76f01e8745faf8191c' ) [ RunTime:0.028001s ]
+
+[ 2017-10-19T13:15:09+08:00 ] 127.0.0.1 /Api/oauth/refresh.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.000000s ]
+SQL: UPDATE `oauth_access_tokens` SET `user_id`=3 WHERE ( `access_token` = 'e9357be98a3a62eb3dbea61ba16085c175d8952e' ) [ RunTime:0.107002s ]
+
+[ 2017-10-19T13:18:18+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T13:18:18+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.003000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:18:24+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:19:39+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.015600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T13:19:39+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:19:45+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:21:23+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T13:21:23+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:21:29+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:22:41+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.015600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T13:22:41+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:22:46+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:23:04+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-19T13:23:04+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T13:23:11+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T14:20:22+08:00 ] 127.0.0.1 /Api/goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T14:20:27+08:00 ] 127.0.0.1 /Api/goods/category.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `m_category_info` [ RunTime:0.071802s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php on line 90 and defined D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Model.class.php 第 1519 行.
+NOTIC: [8] Undefined variable: field D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+NOTIC: [8] Undefined variable: field D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Model.class.php 第 1530 行.
+SQL: SELECT * FROM `m_category_info`  [ RunTime:0.015600s ]
+
+[ 2017-10-19T14:21:01+08:00 ] 127.0.0.1 /Api/goods/category.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `m_category_info` [ RunTime:0.004000s ]
+NOTIC: [2] Missing argument 1 for Think\Model::field(), called in D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php on line 90 and defined D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Model.class.php 第 1519 行.
+NOTIC: [8] Undefined variable: field D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Model.class.php 第 1520 行.
+NOTIC: [8] Undefined variable: field D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Model.class.php 第 1530 行.
+SQL: SELECT * FROM `m_category_info`  [ RunTime:0.001000s ]
+
+[ 2017-10-19T14:48:49+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.016600s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T14:48:49+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T14:49:00+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T14:49:34+08:00 ] 127.0.0.1 /Api/goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T14:49:37+08:00 ] 127.0.0.1 /Api/goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.000000s ]
+SQL: SELECT oauth_clients.user_id FROM `oauth_access_tokens` left JOIN oauth_clients ON oauth_clients.clien_id = oauth_access_tokens.client_id  WHERE ( oauth_access_tokens.access_token = 'd4ab2c03db433a718a363c7e3b0a0f675ca10a96' ) LIMIT 1   [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'oauth_clients.clien_id' in 'on clause'
+ [ SQL语句 ] : SELECT oauth_clients.user_id FROM `oauth_access_tokens` left JOIN oauth_clients ON oauth_clients.clien_id = oauth_access_tokens.client_id  WHERE ( oauth_access_tokens.access_token = 'd4ab2c03db433a718a363c7e3b0a0f675ca10a96' ) LIMIT 1  
+
+[ 2017-10-19T14:50:51+08:00 ] 127.0.0.1 /Api/goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `oauth_access_tokens` left JOIN oauth_clients ON oauth_clients.clien_id = oauth_access_tokens.client_id  WHERE ( oauth_access_tokens.access_token = 'd4ab2c03db433a718a363c7e3b0a0f675ca10a96' )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'oauth_clients.clien_id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `oauth_access_tokens` left JOIN oauth_clients ON oauth_clients.clien_id = oauth_access_tokens.client_id  WHERE ( oauth_access_tokens.access_token = 'd4ab2c03db433a718a363c7e3b0a0f675ca10a96' ) 
+
+[ 2017-10-19T14:51:20+08:00 ] 127.0.0.1 /Api/goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `oauth_access_tokens` INNER JOIN oauth_clients ON oauth_clients.clien_id = oauth_access_tokens.client_id  WHERE ( oauth_access_tokens.access_token = 'd4ab2c03db433a718a363c7e3b0a0f675ca10a96' )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'oauth_clients.clien_id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `oauth_access_tokens` INNER JOIN oauth_clients ON oauth_clients.clien_id = oauth_access_tokens.client_id  WHERE ( oauth_access_tokens.access_token = 'd4ab2c03db433a718a363c7e3b0a0f675ca10a96' ) 
+
+[ 2017-10-19T14:51:40+08:00 ] 127.0.0.1 /Api/goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `oauth_access_tokens` INNER JOIN oauth_clients ON oauth_clients.clien_id = oauth_access_tokens.client_id  WHERE ( `access_token` = 'd4ab2c03db433a718a363c7e3b0a0f675ca10a96' )  [ RunTime:0.000000s ]
+ERR: 1054:Unknown column 'oauth_clients.clien_id' in 'on clause'
+ [ SQL语句 ] : SELECT * FROM `oauth_access_tokens` INNER JOIN oauth_clients ON oauth_clients.clien_id = oauth_access_tokens.client_id  WHERE ( `access_token` = 'd4ab2c03db433a718a363c7e3b0a0f675ca10a96' ) 
+
+[ 2017-10-19T14:57:18+08:00 ] 127.0.0.1 /Api/goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-10-19T14:58:13+08:00 ] 127.0.0.1 /Api/goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.004000s ]
+
+[ 2017-10-19T15:01:06+08:00 ] 127.0.0.1 /Api/goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.000000s ]
+SQL: SELECT * FROM `oauth_access_tokens` INNER JOIN oauth_clients ON oauth_clients.client_id = oauth_access_tokens.client_id  WHERE ( `access_token` = 'd4ab2c03db433a718a363c7e3b0a0f675ca10a96' )  [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:01:45+08:00 ] 127.0.0.1 /Api/goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.000000s ]
+SQL: SELECT oauth_clients.user_id FROM `oauth_access_tokens` INNER JOIN oauth_clients ON oauth_clients.client_id = oauth_access_tokens.client_id  WHERE ( `access_token` = 'd4ab2c03db433a718a363c7e3b0a0f675ca10a96' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:02:26+08:00 ] 127.0.0.1 /Api/goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.015600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.015600s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.000000s ]
+SQL: SELECT oauth_clients.user_id FROM `oauth_access_tokens` INNER JOIN oauth_clients ON oauth_clients.client_id = oauth_access_tokens.client_id  WHERE ( `access_token` = 'd4ab2c03db433a718a363c7e3b0a0f675ca10a96' ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:02:52+08:00 ] 127.0.0.1 /Api/goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.004000s ]
+SQL: SELECT oauth_clients.user_id FROM `oauth_access_tokens` INNER JOIN oauth_clients ON oauth_clients.client_id = oauth_access_tokens.client_id  WHERE ( `access_token` = 'd4ab2c03db433a718a363c7e3b0a0f675ca10a96' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `s_show_goods` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `s_show_goods` WHERE ( `channel_id` = 3 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.002000s ]
+SQL: SHOW COLUMNS FROM `b_goods_info` [ RunTime:0.003001s ]
+SQL: ( SELECT bgi.goods_id,bgi.brand_id,bgi.goods_name,bgi.goods_letter,bgi.goods_sn,bgi.details,bgi.details_letter,bgi.desc_cn,bgi.desc_letter,bgi.category_id,bgi.price,bgi.market_price,bgi.weight,bgi.is_cross,bgi.returned,bgi.flash,bgi.free_shipping,bgi.add_date,bgi.update_time,bgi.note,bgi.goods_status,bbi.brand_name,ssg.goods_number,mci.name AS category_name FROM open_system AS os left JOIN s_show_goods AS ssg ON ssg.channel_id = os.id left JOIN b_goods_info as bgi ON bgi.goods_sn = ssg.goods_sn left JOIN b_brand_info AS bbi ON bbi.id = bgi.brand_id left JOIN m_category_info AS mci ON mci.id = bgi.category_id  WHERE ( os.id = '3' ) AND ( bgi.is_real = 1 ) AND ( bgi.goods_status = 1 ) LIMIT 0,10   ) [ RunTime:0.001000s ]
+
+[ 2017-10-19T15:03:07+08:00 ] 127.0.0.1 /Api/goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T15:03:17+08:00 ] 127.0.0.1 /Api/goods/lists.html?access_token=32b62de19e9353488663cb79f10b85236c7e12f0
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T15:03:43+08:00 ] 127.0.0.1 /Api/goods/lists.html?access_token=d4ab2c03db433a718a363c7e3b0a0f675ca10a96
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.015600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8] Undefined index: access_token D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.015600s ]
+SQL: SELECT oauth_clients.user_id FROM `oauth_access_tokens` INNER JOIN oauth_clients ON oauth_clients.client_id = oauth_access_tokens.client_id  WHERE ( `access_token` = null ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 16 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `s_show_goods` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `s_show_goods` WHERE ( `channel_id` = 0 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `b_goods_info` [ RunTime:0.000000s ]
+SQL: ( SELECT bgi.goods_id,bgi.brand_id,bgi.goods_name,bgi.goods_letter,bgi.goods_sn,bgi.details,bgi.details_letter,bgi.desc_cn,bgi.desc_letter,bgi.category_id,bgi.price,bgi.market_price,bgi.weight,bgi.is_cross,bgi.returned,bgi.flash,bgi.free_shipping,bgi.add_date,bgi.update_time,bgi.note,bgi.goods_status,bbi.brand_name,ssg.goods_number,mci.name AS category_name FROM open_system AS os left JOIN s_show_goods AS ssg ON ssg.channel_id = os.id left JOIN b_goods_info as bgi ON bgi.goods_sn = ssg.goods_sn left JOIN b_brand_info AS bbi ON bbi.id = bgi.brand_id left JOIN m_category_info AS mci ON mci.id = bgi.category_id  WHERE ( os.id = 0 ) AND ( bgi.is_real = 1 ) AND ( bgi.goods_status = 1 ) LIMIT 0,10   ) [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:04:02+08:00 ] 127.0.0.1 /Api/goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.000000s ]
+SQL: SELECT oauth_clients.user_id FROM `oauth_access_tokens` INNER JOIN oauth_clients ON oauth_clients.client_id = oauth_access_tokens.client_id  WHERE ( `access_token` = 'd4ab2c03db433a718a363c7e3b0a0f675ca10a96' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `s_show_goods` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `s_show_goods` WHERE ( `channel_id` = 3 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `b_goods_info` [ RunTime:0.015600s ]
+SQL: ( SELECT bgi.goods_id,bgi.brand_id,bgi.goods_name,bgi.goods_letter,bgi.goods_sn,bgi.details,bgi.details_letter,bgi.desc_cn,bgi.desc_letter,bgi.category_id,bgi.price,bgi.market_price,bgi.weight,bgi.is_cross,bgi.returned,bgi.flash,bgi.free_shipping,bgi.add_date,bgi.update_time,bgi.note,bgi.goods_status,bbi.brand_name,ssg.goods_number,mci.name AS category_name FROM open_system AS os left JOIN s_show_goods AS ssg ON ssg.channel_id = os.id left JOIN b_goods_info as bgi ON bgi.goods_sn = ssg.goods_sn left JOIN b_brand_info AS bbi ON bbi.id = bgi.brand_id left JOIN m_category_info AS mci ON mci.id = bgi.category_id  WHERE ( os.id = '3' ) AND ( bgi.is_real = 1 ) AND ( bgi.goods_status = 1 ) LIMIT 0,10   ) [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:04:27+08:00 ] 127.0.0.1 /Api/goods/lists.html?access_token=d4ab2c03db433a718a363c7e3b0a0f675ca10a96
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8] Undefined index: access_token D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 11 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.000000s ]
+SQL: SELECT oauth_clients.user_id FROM `oauth_access_tokens` INNER JOIN oauth_clients ON oauth_clients.client_id = oauth_access_tokens.client_id  WHERE ( `access_token` = null ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 16 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `s_show_goods` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `s_show_goods` WHERE ( `channel_id` = 0 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.015600s ]
+SQL: SHOW COLUMNS FROM `b_goods_info` [ RunTime:0.000000s ]
+SQL: ( SELECT bgi.goods_id,bgi.brand_id,bgi.goods_name,bgi.goods_letter,bgi.goods_sn,bgi.details,bgi.details_letter,bgi.desc_cn,bgi.desc_letter,bgi.category_id,bgi.price,bgi.market_price,bgi.weight,bgi.is_cross,bgi.returned,bgi.flash,bgi.free_shipping,bgi.add_date,bgi.update_time,bgi.note,bgi.goods_status,bbi.brand_name,ssg.goods_number,mci.name AS category_name FROM open_system AS os left JOIN s_show_goods AS ssg ON ssg.channel_id = os.id left JOIN b_goods_info as bgi ON bgi.goods_sn = ssg.goods_sn left JOIN b_brand_info AS bbi ON bbi.id = bgi.brand_id left JOIN m_category_info AS mci ON mci.id = bgi.category_id  WHERE ( os.id = 0 ) AND ( bgi.is_real = 1 ) AND ( bgi.goods_status = 1 ) LIMIT 0,10   ) [ RunTime:0.000000s ]
+
+[ 2017-10-19T15:05:42+08:00 ] 127.0.0.1 /Api/goods/lists.html?access_token=d4ab2c03db433a718a363c7e3b0a0f675ca10a96
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.000000s ]
+SQL: SELECT oauth_clients.user_id FROM `oauth_access_tokens` INNER JOIN oauth_clients ON oauth_clients.client_id = oauth_access_tokens.client_id  WHERE ( `access_token` = 'd4ab2c03db433a718a363c7e3b0a0f675ca10a96' ) LIMIT 1   [ RunTime:0.000000s ]
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 16 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `s_show_goods` [ RunTime:0.000000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `s_show_goods` WHERE ( `channel_id` = 3 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `b_goods_info` [ RunTime:0.000000s ]
+SQL: ( SELECT bgi.goods_id,bgi.brand_id,bgi.goods_name,bgi.goods_letter,bgi.goods_sn,bgi.details,bgi.details_letter,bgi.desc_cn,bgi.desc_letter,bgi.category_id,bgi.price,bgi.market_price,bgi.weight,bgi.is_cross,bgi.returned,bgi.flash,bgi.free_shipping,bgi.add_date,bgi.update_time,bgi.note,bgi.goods_status,bbi.brand_name,ssg.goods_number,mci.name AS category_name FROM open_system AS os left JOIN s_show_goods AS ssg ON ssg.channel_id = os.id left JOIN b_goods_info as bgi ON bgi.goods_sn = ssg.goods_sn left JOIN b_brand_info AS bbi ON bbi.id = bgi.brand_id left JOIN m_category_info AS mci ON mci.id = bgi.category_id  WHERE ( os.id = '3' ) AND ( bgi.is_real = 1 ) AND ( bgi.goods_status = 1 ) LIMIT 0,10   ) [ RunTime:0.015600s ]
+
+[ 2017-10-19T15:05:48+08:00 ] 127.0.0.1 /Api/goods/lists.html?access_token=d4ab2c03db433a718a363c7e3b0a0f675ca10a96
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.003000s ]
+SQL: SELECT oauth_clients.user_id FROM `oauth_access_tokens` INNER JOIN oauth_clients ON oauth_clients.client_id = oauth_access_tokens.client_id  WHERE ( `access_token` = 'd4ab2c03db433a718a363c7e3b0a0f675ca10a96' ) LIMIT 1   [ RunTime:0.001000s ]
+NOTIC: [8] Undefined index: page D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 16 行.
+NOTIC: [8] Undefined index: limit D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 17 行.
+SQL: SHOW COLUMNS FROM `s_show_goods` [ RunTime:0.003000s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `s_show_goods` WHERE ( `channel_id` = 3 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.003000s ]
+SQL: SHOW COLUMNS FROM `b_goods_info` [ RunTime:0.003001s ]
+SQL: ( SELECT bgi.goods_id,bgi.brand_id,bgi.goods_name,bgi.goods_letter,bgi.goods_sn,bgi.details,bgi.details_letter,bgi.desc_cn,bgi.desc_letter,bgi.category_id,bgi.price,bgi.market_price,bgi.weight,bgi.is_cross,bgi.returned,bgi.flash,bgi.free_shipping,bgi.add_date,bgi.update_time,bgi.note,bgi.goods_status,bbi.brand_name,ssg.goods_number,mci.name AS category_name FROM open_system AS os left JOIN s_show_goods AS ssg ON ssg.channel_id = os.id left JOIN b_goods_info as bgi ON bgi.goods_sn = ssg.goods_sn left JOIN b_brand_info AS bbi ON bbi.id = bgi.brand_id left JOIN m_category_info AS mci ON mci.id = bgi.category_id  WHERE ( os.id = '3' ) AND ( bgi.is_real = 1 ) AND ( bgi.goods_status = 1 ) LIMIT 0,10   ) [ RunTime:0.001000s ]
+
+[ 2017-10-19T15:08:07+08:00 ] 127.0.0.1 /Api/goods/lists.html?access_token=d4ab2c03db433a718a363c7e3b0a0f675ca10a96
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T16:02:09+08:00 ] 127.0.0.1 /Api/goods/lists.html?access_token=d4ab2c03db433a718a363c7e3b0a0f675ca10a96
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T16:02:19+08:00 ] 127.0.0.1 /Api/goods/lists.html?access_token=d4ab2c03db433a718a363c7e3b0a0f675ca10a96
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T16:02:37+08:00 ] 127.0.0.1 /Api/goods/lists.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T16:03:29+08:00 ] 127.0.0.1 /Api/goods/stock.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T16:03:39+08:00 ] 127.0.0.1 /Api/oauth/login.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `open_system` [ RunTime:0.004000s ]
+SQL: SELECT * FROM `open_system` WHERE ( `key` = '167852452426' ) AND ( `secret` = 'e10adc3949ba59abbe56e057f20f883e' ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTrace [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-10-19T16:03:39+08:00 ] 127.0.0.1 /Api/oauth/authorize.html?response_type=code&client_id=c84280f9e95c68280b4bdc480c48082c&state=3f076fde
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T16:03:46+08:00 ] 127.0.0.1 /Api/oauth/token.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+
+[ 2017-10-19T16:04:09+08:00 ] 127.0.0.1 /Api/goods/stock.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002001s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.004000s ]
+SQL: SELECT oauth_clients.user_id FROM `oauth_access_tokens` INNER JOIN oauth_clients ON oauth_clients.client_id = oauth_access_tokens.client_id  WHERE ( `access_token` = '3fed887f21f9ddfc31870c634f475060e1f6454c' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `s_show_goods` [ RunTime:0.002001s ]
+SQL: SELECT `goods_number` FROM `s_show_goods` WHERE ( `channel_id` = 3 ) AND ( `goods_sn` = 1107363 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-10-19T16:04:52+08:00 ] 127.0.0.1 /Api/goods/stock.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.002000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+NOTIC: [8192] mysql_connect(): The mysql extension is deprecated and will be removed in the future: use mysqli or PDO instead D:\phpStudy\WWW\bbc3.0-local\ThinkPHP\Library\Think\Db\Driver\Mysql.class.php 第 52 行.
+SQL: SHOW COLUMNS FROM `oauth_access_tokens` [ RunTime:0.003000s ]
+SQL: SELECT oauth_clients.user_id FROM `oauth_access_tokens` INNER JOIN oauth_clients ON oauth_clients.client_id = oauth_access_tokens.client_id  WHERE ( `access_token` = '3fed887f21f9ddfc31870c634f475060e1f6454c' ) LIMIT 1   [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `s_show_goods` [ RunTime:0.002000s ]
+SQL: SELECT `goods_number` FROM `s_show_goods` WHERE ( `channel_id` = 3 ) AND ( `goods_sn` = 1107363 ) AND ( `status` = 1 ) LIMIT 1   [ RunTime:0.000000s ]
+
+[ 2017-10-19T18:08:26+08:00 ] 127.0.0.1 /Api/goods/stock.html
+INFO: [ app_init ] --START--
+INFO: Run Common\Behavior\InitHook [ RunTime:0.015600s ]
+INFO: [ app_init ] --END-- [ RunTime:0.015600s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCache [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [2048] Declaration of Api\Controller\GoodsController::lists() should be compatible with Api\Controller\HomeController::lists($model, $where = Array, $order = '', $base = Array, $field = true) D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\GoodsController.class.php 第 5 行.
+NOTIC: [2048] Declaration of Api\Controller\RedisController::get() should be compatible with Think\Controller::get($name = '') D:\phpStudy\WWW\bbc3.0-local\Application\Api\Controller\RedisController.class.php 第 329 行.
+

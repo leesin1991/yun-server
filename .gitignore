@@ -33,10 +33,4 @@ phpunit.phar
 
 # vagrant runtime
 /.vagrant
-/Runtime/
 /.idea/
-/Application/Common/Conf/conf.php
-/Runtime/Cache/
-/Runtime/Data/
-/Runtime/Logs/
-/Runtime/Temp/
