@@ -1,0 +1,499 @@
+
+
+<extend name="Public/base"/>
+
+<block name="body">
+    <link rel="stylesheet" type="text/css" href="../../../../Public/Admin/css/laydate.css">
+    <script type="text/javascript" src="__JS__/layer/laydate.js"></script>
+    <div class="main-title">
+        <h2>{$meta_title}</h2>
+    </div>
+    <form action="{:U('')}" method="post" class="form-horizontal">
+        <div class="form-horizontal look-listInfo">
+            <ul class="goods_add_tab controls">
+                <li class="stat_on">基本信息</li>
+                <li>商品信息</li>
+                <li>渠道信息</li>
+            </ul>
+            <!--基本信息-->
+            <div class="goods_add_info ditch-list">
+                <div class="goods_info_item" style="display: block;">
+                    <div class="form-item">
+                        <label class="look-label">计划名：</label>
+                        <div class="look-info">
+                            <input type="text" name="plan" class="text input-large fl" value="{$_row.name}" required />
+                        </div>
+                    </div>
+                    <div class="form-item">
+                        <label class="look-label">计划描述：</label>
+                        <div class="look-info">
+                            <input type="text" name="plan_desc"  class="text input-large fl" value="{$_row.desc}" required/>
+                        </div>
+                    </div>
+            
+                </div>
+                <div class="goods_info_item">
+                    <div class="brand-all">
+                        <div class="brandAll-condition">
+                            <label><input type="checkbox" class="check-all"/>全选</label>
+                            <!--<select class="fl" name="category">-->
+                                <!--<option value="">品类</option>-->
+                                <!--<volist name="_goods_type" id="g_o">-->
+                                    <!--<option value="{$g_o.id}">{$g_o.name}</option>-->
+                                    <!--<volist name="g_o._child" id="z_o">-->
+                                        <!--<option value="{$z_o.id}">{$z_o.name}</option>-->
+                                        <!--<volist name="z_o._child" id="y_o">-->
+                                            <!--<option value="{$y_o.id}">{$y_o.name}</option>-->
+                                        <!--</volist>-->
+                                    <!--</volist>-->
+                                <!--</volist>-->
+
+                            <!--</select>-->
+                            <input type="text" class="text"/>
+                            <button id="btn">查询</button>
+                            <!--<span class="all-sales allTall-img">销量</span>-->
+                            <!--<span class="all-price allLow-img">售价</span>-->
+                        </div>
+                        <ul class="brandAll-ul">
+                            <volist name="_goods_list" id="g_o">
+                                <li>
+                                    <input type="checkbox" name="checkbox"/>
+                                    <span value="{$g_o.goods_id}">{$g_o.goods_name}</span>
+                                </li>
+                            </volist>
+
+                        </ul>
+                    </div>
+                    <div class="brand-part">
+                        <div class="brandAll-condition">
+                            <label><input type="checkbox" class="check-all" checked="checked"/>全选</label>
+                            <!--<select name="categorys">
+                                <option value="">品类</option>
+                                <volist name="_goods_type" id="g_o">
+                                    <option value="{$g_o.id}">{$g_o.name}</option>
+                                    <volist name="g_o._child" id="z_o">
+                                        <option value="{$z_o.id}">{$z_o.name}</option>
+                                        <volist name="z_o._child" id="y_o">
+                                            <option value="{$y_o.id}">{$y_o.name}</option>
+                                        </volist>
+                                    </volist>
+                                </volist>
+                            </select>-->
+                            <input type="text" class="text"/>
+                            <button id="btns">查询</button>
+                            <!--<span class="all-sales allTall-img">销量</span>
+                            <span class="all-price allLow-img">售价</span>-->
+                        </div>
+                        <ul class="brandAll-ul">
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="goods_info_item">
+                    <div class="overflow-list">
+                        <foreach name="_channel" item="c_o" key="c_k">
+                            <?php $arr_list=array(); ?>
+                            <div class="ditch-info">
+                                <img src="{$c_o.channel_logo}"/>
+                                <p>{$c_o.desc}</p>
+                                <div class="ditch-infoCheckbox">
+                                    <notempty name="_cont">
+                                        <?php $arr_info=array(); ?>
+                                        <volist name="_cont" id="z_v" key="z_k">
+                                            <?php $arr_list[] = $z_v['id'];?>
+                                            <?php $arr_info[] = $z_v['level'];?>
+                                        </volist>
+                                        <?php if(count($arr_list) == 1){ ?>
+                                            <if condition="in_array($c_o['id'],$arr_list)">
+                                                <foreach name="c_o.level" item="e_v" key="e_k">
+                                                    <?php $arr=array(); ?>
+
+                                                    <volist name="z_v.level" id="y_v">
+                                                        <?php $arr[] = $y_v['id'];?>
+                                                    </volist>
+
+                                                    <if condition="in_array($e_v['id'],$arr)">
+                                                        <label class="ditch-labelCheckbox"><input type="checkbox" class="plan-labelInput" checked="checked" name="level[]"  value="{$e_v.id}" />{$e_v.column_name}</label>
+                                                    <else />
+                                                        <label class="ditch-labelCheckbox"><input type="checkbox" class="plan-labelInput" name="level[]"  value="{$e_v.id}" />{$e_v.column_name}</label>
+                                                    </if>
+                                                </foreach>
+                                            <else />
+                                                <foreach name="c_o.level" item="e_v" key="e_k">
+                                                    <label class="ditch-labelCheckbox"><input type="checkbox" class="plan-labelInput" name="level[]"  value="{$e_v.id}" />{$e_v.column_name}</label>
+                                                </foreach>
+                                            </if>
+                                        <?php }else{ ?>
+                                            <if condition="in_array($c_o['id'],$arr_list)">
+                                                <foreach name="c_o.level" item="f_v" key="f_k">
+                                                    <?php $arrs=array(); ?>
+                                                    <volist name="_cont" id="m_v" key="m_k">
+                                                        <volist name="m_v.level" id="n_v">
+                                                            <?php $arrs[] = $n_v['id'];?>
+                                                        </volist>
+                                                    </volist>
+                                                    <if condition="in_array($f_v['id'],$arrs)">
+                                                        <label class="ditch-labelCheckbox"><input type="checkbox" class="plan-labelInput" checked="checked" name="level[]"  value="{$f_v.id}" />{$f_v.column_name}</label>
+                                                    <else />
+                                                        <label class="ditch-labelCheckbox"><input type="checkbox" class="plan-labelInput" name="level[]"  value="{$f_v.id}" />{$f_v.column_name}</label>
+                                                    </if>
+                                                </foreach>
+                                            </if>
+                                        <?php } ?>
+                                    <else />
+                                        <foreach name="c_o.level" item="e_v" key="e_k">
+                                            <label class="ditch-labelCheckbox"><input type="checkbox" class="plan-labelInput" name="level[]"  value="{$e_v.id}" />{$e_v.column_name}</label>
+                                        </foreach>
+                                    </notempty>
+                                </div>
+                                <input type="hidden" name="channel_id[]" id="channel_id" value="{$c_o.id}">
+                            </div>
+                        </foreach>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" name ="pid" value="{$_row.id}">
+        <button class="btn btn-primary dicth-btn" type="submit">提交计划</button>
+    </form>
+
+</block>
+
+<block name="script">
+
+    <script type="text/javascript">
+        
+        //导航高亮
+        if("{$act}" == 'add'){
+            highlight_subnav('{:U('BusinessChannel/index')}');
+        }else{
+            highlight_subnav('{:U('BusinessChannel/index')}');
+        }
+
+
+        $(".goods_add_tab li").click(function(){
+            $(".goods_add_tab li").removeClass("inputVal");
+            if(!$(this).hasClass("stat_on")){
+                $(".goods_add_info .goods_info_item").hide().eq($(".goods_add_tab li").removeClass("stat_on").index($(this).addClass("stat_on"))).show();
+            }
+        });
+
+
+
+        $('.dicth-btn').click(function(){
+            var inputVal1 = $('.ditch-list input[name="plan"]').val();
+            var inputVal2 = $('.ditch-list input[name="plan_desc"]').val();
+            var checkedW=$(".ditch-infoCheckbox input[type='checkbox']:checked");
+            var chk_value =[];
+            if(inputVal1 == '' || inputVal2 == '' ||checkedW.length == 0){
+            	if(inputVal1 == '' && inputVal2 == '' && checkedW.length == 0){
+            		$('.goods_add_tab li:first-child').addClass("inputVal");
+                	layer.alert('请填写基本信息');
+                	return false;
+            	}
+            	else if(inputVal1 == '' || inputVal2 == ''){
+            		$('.goods_add_tab li:first-child').addClass("inputVal");
+                	layer.alert('请填写基本信息');
+                	return false;
+            	}
+            	else if(checkedW.length == 0){
+	                $('.goods_add_tab li:last-child').addClass("inputVal");
+	                layer.alert('请填写渠道');
+	                return false;
+            	}
+                
+            }else{
+            	return true;
+            }         
+
+          
+//		$(".ditch-infoCheckbox input[type='checkbox']:checked").each(function(){
+//			var chanenl=$(this).parent().parent().parent().siblings('input').val();
+//			chk_value.push(chanenl);
+//		});
+//		console.log(chanenl);
+
+        });
+		$('.ditch-list input[type="text"]').focus(function(){
+			$('.goods_add_tab li:first-child').removeClass("inputVal");
+		})
+//		function (e){
+//          var checkeAll = e.find('input[type="checkbox"]:checked');
+//          if(checkeAll.length == 0){
+//          	return false;
+//          }
+//		}
+        $(function(){
+            $('.ditch-info').each(function(){
+                var _this=$(this);
+                var _len = 0;
+                var hidd = _this.find('.plan-labelInput');
+                console.log(hidd.length);
+                if(hidd.length == 0){
+                    console.log(123);
+                    $(this).find('input[type="hidden"]').attr('disabled','disabled');
+                }
+                $(this).find('.plan-labelInput').each(function(){
+                    if ($(this).is(":checked")) {
+                        _len++;
+                        _this.find('input[type="hidden"]').removeAttr('disabled');
+                    }
+                    if(_len==0){
+                        _this.find('input[type="hidden"]').attr('disabled','disabled');
+                    }
+                })
+            })
+
+        })
+
+
+        $('.ditch-info input').click(function(e){
+            var $that=$(this).parents('.ditch-info');
+            var _len = 0;
+		//	var $this=$(this).val();
+            $(this).parents(".ditch-info").find(".plan-labelInput").each(function(){
+                if($(this).is(":checked")){
+                    _len++;
+                    $that.find('input[type="hidden"]').removeAttr('disabled');
+                }
+                if(_len ==0){
+                    $that.find('input[type="hidden"]').attr('disabled','disabled');
+                }
+            })
+        });
+
+      
+        //全选
+           (function(){
+    		 	$('.check-all').click(function(e){
+    		 		e=e||window.event;
+    		 		var nodes=$(e.target).parent().parent().parent().find('ul input[type=checkbox]');
+    				for(var i=0;i<nodes.length;i++){
+    					nodes[i].checked=e.target.checked
+    				}
+
+    				var li_List = [];
+    				var $li = $(e.target).parent().parent().parent().find('li');
+    				$li.find('span').each(function(index,elem){
+    			        li_List.push($(elem).attr('value'));
+    			    })
+    			    li_List = JSON.stringify(li_List.join(','));
+    			    console.log(li_List); //打印全选span的val
+    				var $lis = $(e.target).parent().parent().parent().find('li');
+    				$lis.remove();
+    				var $content = $(e.target).parent().parent().parent().siblings().find('ul');
+    				$content.append($lis);
+
+
+    		 	});
+    	 	})();
+    	 	 (function(){
+    		 	$('.all-price').click(function(e){
+    		 		e=e||window.event;
+    		 		var classVal=$(e.target).hasClass('allTall-img');
+    		 		if(classVal == true){  //下降
+    					var desc = 'desc';
+    					$.post("{:U('BusinessChannel/get_sale')}",{'desc':desc}, function (data) {
+    						var res = JSON.parse(data);
+    						if(res.status == 1){
+    							return false;
+    						}
+    					});
+    		 		}
+    		 		if(classVal == false){  //上升
+    					var desc = 'asc';
+    					$.post("{:U('BusinessChannel/get_sale')}",{'desc':desc}, function (data) {
+    						var res = JSON.parse(data);
+    						if(res.status == 1){
+    							var data = res.data;
+    							for(var i in data){
+    							   	console.log(data[i].goods_name);
+    							   	var $ulHtml='<ul class="brandAll-ul">'
+    							  				'+<li><input type="checkbox" name="checkbox" />'
+    							  				'+<span value="data[i].goods_id">data[i].goods_name</span></li></ul>';
+    							}
+    							$('.brand-all').append($ulHtml);
+    							return false;
+    						}
+    					});
+    		 		}
+
+
+    				for(var i=0;i<nodes.length;i++){
+    					nodes[i].checked=e.target.checked;
+    				}
+    				var li_List = [];
+    				var $li = $(e.target).parent().parent().parent().find('li');
+    				$li.find('span').each(function(index,elem){
+    			        li_List.push($(elem).attr('value'));
+    			    })
+    			    li_List = JSON.stringify(li_List.join(','));
+    			    console.log(li_List); //打印全选span的val
+    				var $lis = $(e.target).parent().parent().parent().find('li');
+    				$lis.remove();
+    				var $content = $(e.target).parent().parent().parent().siblings().find('ul');
+    				$content.append($lis);
+
+
+    		 	});
+    	 	})();
+
+        //单选框
+    	 	$('input[type=checkbox]').click(function(e){
+    	 		e=e||window.event;
+    	 		var node=$(e.target).parent().parent(),
+    	 			n1=node.find('input[type=checkbox]'),
+    	 			n2=node.find('input[type=checkbox]:checked'),
+    	 			all=node.parent().find('div label input[type=checkbox]');
+    	 		n1.length==n2.length?(all[0].checked=true):(all[0].checked=false);
+
+    		 	});
+
+            $('.brandAll-condition span').click(function(){
+            	if($(this).hasClass('allTall-img')){
+            		$(this).removeClass('allTall-img');
+            		$(this).addClass('allLow-img');
+            	}
+            	else{
+            		$(this).addClass('allTall-img');
+            		$(this).removeClass('allLow-img');
+            	}
+            });
+    		$(".brand-all ul").on("click","input",function(){
+    			var $li = $(this).closest('li');
+    			var goods_id = $(this).siblings('span').attr("value");
+    			if($(this).prop('checked')){
+    				$li.remove();
+    				$('.brand-part ul').append($li);
+    				$.post("{:U('BusinessChannel/put_goods')}",{'goods_id':goods_id}, function () {
+
+    				});
+    			}
+    		});
+
+    		$(".brand-part ul").on("click","input",function(){
+    			var $li = $(this).closest('li');
+    			if($(this).prop('checked',false)){
+    				$li.remove();
+    				$('.brand-all ul').append($li);
+    			}
+    		});
+
+        	$(".brand-all").on("click",".check-all",function(){
+        		var li_List = [];
+        		var $li = $(".brand-all ul").find("li");
+    			$li.find('span').each(function(index,elem){
+    			})
+    			var goods_id = li_List.join(',');
+    			$.post("{:U('BusinessChannel/put_goods')}",{'goods_id':goods_id}, function () {
+
+    			});
+    		});
+
+    		$("select[name='category']").change(function(){
+    			var category_id = $(this).val();
+    			$.post("{:U('BusinessChannel/get_goods_info')}",{'category_id':category_id}, function () {
+
+    			});
+    		});
+
+    		$("select[name='categorys']").change(function(){
+    			var category_id = $(this).val();
+    			$.post("{:U('BusinessChannel/get_goodslog_info')}",{'category_id':category_id}, function () {
+
+    			});
+    		});
+
+    		$("#btn").click(function(){
+    			var category_id = $("select[name='category']").val();
+    			alert(category_id);return false;
+    			$.post("{:U('BusinessChannel/get_goods_info')}",{'desc':desc}, function () {
+
+    			});
+    		});
+    	 	$('input[type=checkbox]').click(function(e){
+    	 		e=e||window.event;
+    	 		var node=$(e.target).parent().parent(),
+    	 			n1=node.find('input[type=checkbox]'),
+    	 			n2=node.find('input[type=checkbox]:checked'),
+    	 			all=node.parent().find('div label input[type=checkbox]');
+    	 		n1.length==n2.length?(all[0].checked=true):(all[0].checked=false);
+
+    		});
+
+			$('.brandAll-condition span').click(function(){
+				if($(this).hasClass('allTall-img')){
+				$(this).removeClass('allTall-img');
+				$(this).addClass('allLow-img');
+				}
+				else{
+					$(this).addClass('allTall-img');
+				$(this).removeClass('allLow-img');
+				  	}
+			});
+    		$(".brand-all ul").on("click","input",function(){
+    			var $li = $(this).closest('li');
+    			var goods_id = $(this).siblings('span').attr("value");
+    			if($(this).prop('checked')){
+    				$li.remove();
+    				$('.brand-part ul').append($li);
+    				$.post("{:U('BusinessChannel/put_goods')}",{'goods_id':goods_id}, function () {
+
+    				});
+    			}
+    		});
+
+    		$(".brand-part ul").on("click","input",function(){
+    			var $li = $(this).closest('li');
+    			if($(this).prop('checked',false)){
+    				$li.remove();
+    				$('.brand-all ul').append($li);
+    			}
+    		});
+
+	      	$(".brand-all").on("click",".check-all",function(){
+	      		var li_List = [];
+	      		var $li = $(".brand-all ul").find("li");
+	    			$li.find('span').each(function(index,elem){
+	    			})
+	    			var goods_id = li_List.join(',');
+	    			$.post("{:U('BusinessChannel/put_goods')}",{'goods_id':goods_id}, function () {
+	
+	    			});
+    		});
+
+    		$("select[name='category']").change(function(){
+    			var category_id = $(this).val();
+    		//	alert(category_id);return false;
+    			$.post("{:U('BusinessChannel/get_goods_info')}",{'category_id':category_id}, function () {
+
+    			});
+    		});
+
+    		$("select[name='categorys']").change(function(){
+    			var category_id = $(this).val();
+    			//alert(category_id);return false;
+    			$.post("{:U('BusinessChannel/get_goodslog_info')}",{'category_id':category_id}, function () {
+
+    			});
+    		});
+
+    		$("#btn").click(function(){
+    			var category_id
+    			alert(111);return false;
+    			$.post("{:U('BusinessChannel/get_goods_info')}",{'desc':desc}, function () {
+
+    			});
+    		});
+      	    $(".brand-all").on("click",".check-all",function(){
+	      		var li_List = [];
+	      		var $li = $(".brand-all ul").find("li");
+	    			$li.find('span').each(function(index,elem){
+	    		        li_List.push($(elem).attr('value'));
+	    		    })
+	    		    li_List = JSON.stringify(li_List.join(','));
+	    		    console.log(li_List);
+    		});
+    </script>
+</block>
